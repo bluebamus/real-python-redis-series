@@ -133,3 +133,16 @@ CACHES = {
         }
     }
 }
+
+
+NOTEBOOK_ARGUMENTS = [
+    "--ip",
+    "127.0.0.1",
+    "--port",
+    "8888",
+    "--allow-root", # root 권한 사용 경고를 무시합니다.
+    #"--no-browser", # 노트북 서버만 실행합니다.
+    "--NotebookApp.token=''",
+    "--NotebookApp.password=''",
+    # 위 옵션은 노트북에 접근할 때 Token 또는 Password가 필요 없도록 합니다. 
+]

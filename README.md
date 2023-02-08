@@ -6,6 +6,7 @@ This project was created to study redis in the 'real python' class.
 
 - [How to Use Redis With Python](https://realpython.com/python-redis/)
 - [Caching in Django With Redis](https://realpython.com/caching-in-django-with-redis/)
+  - [github repo](https://github.com/realpython/django-redis-cache)
 - [Flask by Example – Implementing a Redis Task Queue](https://realpython.com/flask-by-example-implementing-a-redis-task-queue/)
 - [Asynchronous Tasks With Django and Celery](https://realpython.com/asynchronous-tasks-with-django-and-celery/)
 
@@ -24,8 +25,10 @@ This project was created to study redis in the 'real python' class.
 - blacklist ip detect reference :
   - [Better Rate Limiting With Redis Sorted Sets](https://engineering.classdojo.com/blog/2015/02/06/rolling-rate-limiter/)
   - book [Redis in Action 1st Edition](https://www.amazon.com/dp/1617290858/?tag=devdetailpage02-20)
-- study more :
-  - [server-side Lua scripting](https://redis.io/commands/eval/)
-  - [Scaling with Redis Cluster](https://redis.io/docs/management/scaling/)
-  - [Redis replication](https://redis.io/docs/management/replication/)
-  - [Why RESP3 will be the only protocol supported by Redis 6](http://antirez.com/news/125)
+  - study more :
+    - [server-side Lua scripting](https://redis.io/commands/eval/)
+    - [Scaling with Redis Cluster](https://redis.io/docs/management/scaling/)
+    - [Redis replication](https://redis.io/docs/management/replication/)
+    - [Why RESP3 will be the only protocol supported by Redis 6](http://antirez.com/news/125)
+- project name : caching-in-django-with-redis
+  - prepare : python manage.py loaddata cookbook/fixtures/cookbook.json

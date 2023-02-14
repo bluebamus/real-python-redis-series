@@ -15,8 +15,16 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+import mimetypes
+from config import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('cookbook/', include('cookbook.urls')),
 ]
+
+if settings.DEBUG:
+    mimetypes.add_type("application/javascript", ".js", True)
+    if "debug_toolbar" in settings.INSTALLED_APPS:
+        import debug_toolbar
+        urlpatterns = [path("__debug__/", include(debug_toolbar.urls))] + urlpatterns

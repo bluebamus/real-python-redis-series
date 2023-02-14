@@ -2,12 +2,12 @@ from django.conf import settings
 from django.core.cache.backends.base import DEFAULT_TIMEOUT
 from django.shortcuts import render
 from django.views.decorators.cache import cache_page
-from .services import get_recipes_with_cache as get_recipes
+from .services import get_recipes_without_cache ,get_recipes_with_cache
 
 CACHE_TTL = getattr(settings, 'CACHE_TTL', DEFAULT_TIMEOUT)
 
-@cache_page(CACHE_TTL)
+#@cache_page(CACHE_TTL)
 def recipes_view(request):
     return render(request, 'cookbook/recipes.html', {
-        'recipes': get_recipes()
+        'recipes': get_recipes_with_cache()
     })

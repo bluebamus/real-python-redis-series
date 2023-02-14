@@ -32,3 +32,9 @@ This project was created to study redis in the 'real python' class.
     - [Why RESP3 will be the only protocol supported by Redis 6](http://antirez.com/news/125)
 - project name : caching-in-django-with-redis
   - prepare : python manage.py loaddata cookbook/fixtures/cookbook.json
+
+### Load Test
+#### locust
+- install :
+  - pip install locust
+- work set : create file as locustfile.py

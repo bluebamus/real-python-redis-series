@@ -12,11 +12,11 @@ def get_recipes_without_cache():
 
 def get_recipes_with_cache():
     if 'recipes' in cache:
-        print('get recipes cache!')
-        print('recipes ttl : ',cache.ttl('recipes'))
+        #print('get recipes cache!')
+        #print('recipes ttl : ',cache.ttl('recipes'))
         recipes = cache.get('recipes')
     else:
         recipes = list(Recipe.objects.prefetch_related('ingredient_set__food'))
-        print('set recipes cache!')
+        #print('set recipes cache!')
         cache.set('recipes', recipes, timeout=CACHE_TTL)
     return recipes

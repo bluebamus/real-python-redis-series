@@ -148,6 +148,7 @@ CACHES = {
 CACHE_TTL = 60 * 15
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-# SESSION_ENGINE = 'django.contrib.sessions.backends.db'
-SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
+# SESSION_ENGINE = 'django.contrib.sessions.backends.db' # use only db
+# SESSION_ENGINE = 'django.contrib.sessions.backends.cached_db' # use both
+SESSION_ENGINE = 'django.contrib.sessions.backends.cache' # use only cache
 SESSION_CACHE_ALIAS = 'default'

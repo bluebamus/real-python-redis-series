@@ -7,7 +7,6 @@ This project was created to study redis in the 'real python' class.
 - [How to Use Redis With Python](https://realpython.com/python-redis/)
 - [Caching in Django With Redis](https://realpython.com/caching-in-django-with-redis/)
   - [github repo](https://github.com/realpython/django-redis-cache)
-- [Flask by Example – Implementing a Redis Task Queue](https://realpython.com/flask-by-example-implementing-a-redis-task-queue/)
 - [Asynchronous Tasks With Django and Celery](https://realpython.com/asynchronous-tasks-with-django-and-celery/)
 
 # Project Environment
@@ -34,7 +33,9 @@ This project was created to study redis in the 'real python' class.
   - prepare : python manage.py loaddata cookbook/fixtures/cookbook.json
 
 ### Load Test
+
 #### locust
+
 - install :
   - pip install locust
-- work set : create file as locustfile.py
+- work set : create file as locustfile.py in 'caching-in-django-with-redis' project

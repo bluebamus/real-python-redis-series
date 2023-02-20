@@ -11,11 +11,11 @@ This project was created to study redis in the 'real python' class.
   - [github repo](https://github.com/realpython/django-redis-cache)
 
 ## redis queue
+
 - [Redis Queue (RQ)](https://www.fullstackpython.com/redis-queue-rq.html)
 - [django-rq](https://github.com/rq/django-rq)
   - [Django RQ: A Simple App That Provides Django integration For RQ](https://morioh.com/p/1489e396a898)
   - [Advanced Django-RQ Example](https://stuartm.com/2020/05/advanced-django-rq-example/)
-  - 
 - [django-rq-scheduler : A database backed job scheduler for Django RQ with Django](https://snyk.io/advisor/python/django-rq-scheduler#package-footer)
 - [Asynchronous tasks in Django with Django Q](https://www.valentinog.com/blog/django-q/)
 - [How to Run Your First Task with RQ, Redis, and Python](https://www.twilio.com/blog/first-task-rq-redis-python)
@@ -35,7 +35,7 @@ This project was created to study redis in the 'real python' class.
 # Project Environment
 
 - Windows version of redis-server download
-  - [zkteco-home/redis-windows](zkteco-home/redis-windows)
+  - [zkteco-home/redis-windows](https://github.com/zkteco-home/redis-windows)
   - [tporadowski / redis](https://github.com/tporadowski/redis)
 - [Registering with Services in Windows - korean version](https://gerger.tistory.com/143)
 

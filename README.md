@@ -10,28 +10,6 @@ This project was created to study redis in the 'real python' class.
 - [Caching in Django With Redis](https://realpython.com/caching-in-django-with-redis/)
   - [github repo](https://github.com/realpython/django-redis-cache)
 
-## redis queue
-
-- [Redis Queue (RQ)](https://www.fullstackpython.com/redis-queue-rq.html)
-- [django-rq](https://github.com/rq/django-rq)
-  - [Django RQ: A Simple App That Provides Django integration For RQ](https://morioh.com/p/1489e396a898)
-  - [Advanced Django-RQ Example](https://stuartm.com/2020/05/advanced-django-rq-example/)
-- [django-rq-scheduler : A database backed job scheduler for Django RQ with Django](https://snyk.io/advisor/python/django-rq-scheduler#package-footer)
-- [Asynchronous tasks in Django with Django Q](https://www.valentinog.com/blog/django-q/)
-- [How to Run Your First Task with RQ, Redis, and Python](https://www.twilio.com/blog/first-task-rq-redis-python)
-- [RQ official site](https://python-rq.org/docs/)
-
-## redis pub/sub
-
-- [eng-ver : Hands-on with Redis and Django](https://enlear.academy/hands-on-with-redis-and-django-ed7df9104343)
-  - [kor-ver : Django Redis - caching, scheduling (task), pub/sub message que](https://velog.io/@qlgks1/Django-Redis-caching-scheduling-task-messaging-celery-async-worker)
-- [how-to-use-redis-for-caching-and-pub-sub-in-python](https://betterprogramming.pub/how-to-use-redis-for-caching-and-pub-sub-in-python-3851174f9fb0)
-- [redis publish / subscribe python example](https://blog.naver.com/PostView.naver?blogId=pareko&logNo=222528721348&categoryNo=0&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView)
-
-## redis pub/sub
-
-- [Asynchronous Tasks With Django and Celery](https://realpython.com/asynchronous-tasks-with-django-and-celery/)
-
 # Project Environment
 
 - Windows version of redis-server download
